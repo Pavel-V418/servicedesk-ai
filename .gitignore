@@ -1,0 +1,22 @@
+# секреты
+.env
+
+# окружение и IDE
+.venv/
+venv/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+
+# данные (реальные обращения — не публикуем)
+*.xlsx
+*.csv
+**/dataset/
+
+# обученные модели и артефакты
+*.joblib
+*.cbm
+**/chroma_db/
+catboost_info/
+**/catboost_info/

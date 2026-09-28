@@ -1,0 +1,26 @@
+FINAL TEMPORAL TEST
+===================
+
+Development: 1544
+Final test: 386
+
+Accuracy: 0.6891
+Macro-F1: 0.3991
+Weighted-F1: 0.6560
+
+Classification report:
+              precision    recall  f1-score   support
+
+          L1     0.7075    0.8929    0.7895       252
+          L2     0.6029    0.3083    0.4080       133
+          L3     0.0000    0.0000    0.0000         1
+
+    accuracy                         0.6891       386
+   macro avg     0.4368    0.4004    0.3991       386
+weighted avg     0.6697    0.6891    0.6560       386
+
+Confusion matrix:
+           Predicted_L1  Predicted_L2  Predicted_L3
+Actual_L1           225            27             0
+Actual_L2            92            41             0
+Actual_L3             1             0             0
